@@ -9,3 +9,9 @@ usando a instancia aws linux:
 Mudar p/ usuario ec2-user:
 sudo su ec2-user
 cd /home/ec2-user
+
+
+
+# COMANDO DIRETO NO TERMINAL 
+
+ aws ssm start-session --target   ID_DA_ISNTANCIA
